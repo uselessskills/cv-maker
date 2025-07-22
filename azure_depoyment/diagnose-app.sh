@@ -4,9 +4,9 @@
 echo "====== Starting Azure App Diagnostics ======"
 
 # Variables - these should match your original deployment
-RESOURCE_GROUP="ats-resume-rg"
-APP_NAME="ats-resume-app"
-ACR_NAME="atsresumeregistry"
+RESOURCE_GROUP="cv-maker-rg"
+APP_NAME="cv-maker-app"
+ACR_NAME="cvmakeregistry"
 
 # Step 1: Check if the web app exists and its state
 echo "Checking if Web App exists and its current state..."

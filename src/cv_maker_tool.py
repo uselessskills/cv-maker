@@ -51,13 +51,23 @@ async def create_resume_pdf(data, output_filename: str = None) -> str:
         print(f"Error validating resume data: {e}")
         return None
 
+    # Ensure the output directory exists
+    # output_dir = os.path.dirname('../output/')
+    # os.makedirs(output_dir, exist_ok=True)
+
+    # Save the input data object as JSON
+    output_json_path = output_filename if output_filename else resume_data.get_output_filename()
+    output_json_path = f'../output/{output_json_path}.json'
+    with open(output_json_path, 'w') as json_file:
+        json.dump(data if isinstance(data, dict) else data.dict(), json_file, indent=4)
+        
     # Extract header information from Pydantic model
     header = resume_data.header
     author = header.name
     
     # Use the helper method to generate the output path
     output_pdf_path = output_filename if output_filename else resume_data.get_output_filename()
-    output_pdf_path = f'../output/{output_pdf_path}'
+    output_pdf_path = f'../output/{output_pdf_path}.pdf'
     
     # print(f"Processing resume for: {author}")
     # print(f"Output file: {output_pdf_path}")

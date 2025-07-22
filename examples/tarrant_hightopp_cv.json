@@ -1,0 +1,104 @@
+{
+    "header": {
+        "name": "Tarrant Hightopp",
+        "email": "madhatter@underland.wonder",
+        "phone": "006-HAT-HATS",
+        "address": "Delightfully Crooked Cottage, Near Marmoreal",
+        "linkedin": ""
+    },
+    "education": [
+        {
+            "institution": "Tea Time Academy of Millinery Arts",
+            "course": "Advanced Hat Design and Unlicensed Invention",
+            "location": "Underland",
+            "start_date": "1865",
+            "end_date": "1870"
+        }
+    ],
+    "experience": [
+        {
+            "company": "Royal Court of Underland",
+            "location": "Wonderland",
+            "description": [
+                "Designed and crafted over 85+ elaborate hats for the White Queen and her court, integrating hidden compartments, mood-shifting fabrics, and biscuit storage.",
+                "Boosted wearer confidence during ceremonial events by 37% through innovative hat designs.",
+                "Reduced preparation time for royal events by 25% with streamlined hat fitting and customization processes."
+            ],
+            "positions": [
+                {
+                    "title": "Master Milliner",
+                    "start_date": "1870",
+                    "end_date": "1885"
+                }
+            ]
+        },
+        {
+            "company": "Resistance Against the Red Queen",
+            "location": "Underground Hideout, Wonderland",
+            "description": [
+                "Outfitted 50+ rebel leaders with covert hat designs featuring disguised communication devices.",
+                "Enhanced survival rates during operations by 15% through jam-powered, functionality-optimized headgear.",
+                "Improved on-the-go hat repair efficiency by 20%, ensuring consistent availability in high-stakes scenarios."
+            ],
+            "positions": [
+                {
+                    "title": "Rebel Hat Engineer",
+                    "start_date": "1875",
+                    "end_date": "1880"
+                }
+            ]
+        },
+        {
+            "company": "Freelance Millinery and Tea Coordination",
+            "location": "Crooked Cottage, Marmoreal",
+            "description": [
+                "Delivered 450+ unique custom hats tailored for diverse clients, including white rabbits, eccentric caterpillars, and spontaneous tea guests.",
+                "Coordinated over 200 unforgettable tea parties, achieving 95% attendee satisfaction via synchronized teacup choreography.",
+                "Reduced lateness at tea parties by 30% through emergency headwear kits equipped with integrated timepieces."
+            ],
+            "positions": [
+                {
+                    "title": "Master Milliner and Tea-Party Host",
+                    "start_date": "1885",
+                    "end_date": "Present"
+                }
+            ]
+        }
+    ],
+    "projects": [],
+    "skills": [
+        {
+            "title": "Hat Design and Innovation",
+            "elements": [
+                "Custom Hat Architecture",
+                "Mood-Responsive Fabrics Integration",
+                "Hidden Storage Compartments for Accessories",
+                "Functional Hats with Timekeeping Features"
+            ]
+        },
+        {
+            "title": "Material Expertise",
+            "elements": [
+                "Advanced Fabric Selection (silks, velvets, and enchanted thread)",
+                "Sustainable Materials Allocation",
+                "Precision Stitching and Embroidery Techniques"
+            ]
+        },
+        {
+            "title": "Hat Engineering",
+            "elements": [
+                "Jam-Powered Mechanism Development",
+                "Compact Storage Design for Portable Hats",
+                "Prototype Testing for Functional Hat Gadgets"
+            ]
+        },
+        {
+            "title": "Quality Assurance and Customization",
+            "elements": [
+                "Rigorous Wear and Tear Testing",
+                "Tailored Hat Fitting for Diverse Head Shapes",
+                "Rush Order Fulfillment without Quality Compromise"
+            ]
+        }
+    ]
+}

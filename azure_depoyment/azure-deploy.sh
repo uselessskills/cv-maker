@@ -61,7 +61,7 @@ az webapp create \
   --resource-group $RESOURCE_GROUP \
   --plan ${APP_NAME}-plan \
   --name $APP_NAME \
-  --deployment-container-image-name ${ACR_NAME}.azurecr.io/cv-maker:latest \
+  --deployment-container-image-name ${ACR_NAME}.azurecr.io/cv-maker-image:latest \
   --docker-registry-server-user $ACR_USERNAME \
   --docker-registry-server-password $ACR_PASSWORD
 

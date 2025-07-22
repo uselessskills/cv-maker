@@ -69,5 +69,5 @@ class ResumeData(BaseModel):
             
     def get_output_filename(self) -> str:
         """Generate an output filename based on the person's name."""
-        return f"{self.header.name.lower().replace(' ', '_')}_resume.pdf"
+        return f"{self.header.name.lower().replace(' ', '_')}_cv"
     skills: List[SkillElement]

@@ -13,7 +13,7 @@ source dev.env
 
 # Step 1: Rebuild the Docker image
 echo "Rebuilding Docker image with Docker Compose..."
-docker compose -f docker-compose.azure.yml build
+docker compose -f docker-compose.azure.yml build --no-cache
 
 # Step 2: Log in to ACR
 echo "Logging into Azure Container Registry..."
@@ -21,8 +21,8 @@ az acr login --name $ACR_NAME
 
 # Step 3: Tag and push the updated image to ACR
 echo "Tagging and pushing updated image to ACR..."
-docker tag cv-maker:latest ${ACR_NAME}.azurecr.io/cv-maker:latest
-docker push ${ACR_NAME}.azurecr.io/cv-maker:latest
+docker tag cv-maker-cv-maker-image:latest ${ACR_NAME}.azurecr.io/cv-maker-image:latest
+docker push ${ACR_NAME}.azurecr.io/cv-maker-image:latest
 
 # Step 4: Restart the Web App to pick up the new image
 echo "Restarting the Web App to apply changes..."
