@@ -1,0 +1,20 @@
+services:
+  cv-maker-image:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/app/src
+      - ./output:/app/output
+      - ./res:/app/res
+    # environment:
+    #   - CHAINLIT_AUTH_SECRET=${CHAINLIT_AUTH_SECRET}
+    #   - AZURE_OPENAI_API_KEY=${AZURE_OPENAI_API_KEY}
+    #   - AZURE_OPENAI_ENDPOINT=${AZURE_OPENAI_ENDPOINT}
+    #   - AZURE_OPENAI_API_VERSION=${AZURE_OPENAI_API_VERSION}
+    #   - AZURE_OPENAI_MODEL=${AZURE_OPENAI_MODEL}
+    #   - USERS=${USERS}
+    env_file:
+      - dev.env

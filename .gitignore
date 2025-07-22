@@ -1,0 +1,9 @@
+__pycache__
+.venv
+.vscode
+.chainlit
+.hash
+/output
+*.pdf
+dev.env
+prod.env

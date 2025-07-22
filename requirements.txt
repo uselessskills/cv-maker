@@ -1,0 +1,30 @@
+# Core PDF generation
+Pillow==10.0.0
+reportlab==4.0.4
+
+# Data validation and structures
+pydantic>=2.7.4
+
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-community>=0.3.27
+langgraph>=0.0.20
+
+# OpenAI integration
+openai>=1.0.0
+
+# Document handling
+PyMuPDF>=1.22.0
+
+# Configuration and environment
+python-dotenv>=1.0.0
+
+# Web UI
+chainlit>=1.0.0
+
+# Optionally for user authentication with secure passwords
+bcrypt>=4.0.0
+
+# Azure OpenAI integration
+azure-identity>=1.15.0

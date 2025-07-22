@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  cv-maker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cv-maker:azure
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/app/src
+      - ./output:/app/output
+      - ./res:/app/res
+    env_file:
+      - dev.env
+    restart: always
+    # Added healthcheck for container monitoring
+    # healthcheck:
+    #   test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+    #   interval: 30s
+    #   timeout: 10s
+    #   retries: 3
+    #   start_period: 40s
