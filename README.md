@@ -1,6 +1,15 @@
 # CV-Maker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![CV-Maker Demo](./examples/cv-maker-demo.gif)
+
+
 CV-Maker is a Python-based tool designed to streamline the process of creating professional resumes tailored to the position. It leverages GenAI agentic capabilities using LangGraph to enhance resume generation with intelligent suggestions and adaptive formatting. By utilizing Pydantic models for data validation, adapter patterns for presentation logic, and a modular architecture, the tool ensures a clear separation of concerns and high maintainability. Users can input their resume data in JSON format, which is then processed and rendered into a polished PDF document. The application supports Docker for easy deployment and includes scripts for running locally or deploying to Azure Web App Service.
+
+It suppports upload of pdf and plain text/json files.
+
+Resulting CV format:
+![CV Example](./examples/tarrant_hightopp_cv.png)
+
 
 # Project Architecture
 

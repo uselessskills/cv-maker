@@ -4,6 +4,6 @@ __pycache__
 .chainlit
 .hash
 /output
-*.pdf
+# *.pdf
 dev.env
 prod.env
